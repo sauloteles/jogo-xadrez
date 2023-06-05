@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabuleiro-linha{
+    display: flex;
+}
+.tabuleiro-casa{
+    height: 70px;
+    width: 70px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.tabuleiro-casa img{
+    width: 100%;
+}
+.color-1{
+    background-color: #a68c69;
+}
+.color-2{
+    background-color:#594433; ;
+}
+
+.peao-preto-1,
+.peao-preto-2,
+.peao-preto-3,
+.peao-preto-4,
+.peao-preto-5,
+.peao-preto-6,
+.peao-preto-7,
+.peao-preto-8{
+    background-image: url(/assets/black_pawn.svg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+.peao-branco{
+    background-image: url(/assets/white_pawn.svg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+
+}
+
+.torre-preta-1,.torre-preta-2{
+    background-image: url(/assets/black_rook.svg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+
+}
+
+.cavalo-preto-1,.cavalo-preto-2{
+    background-image: url(/assets/black_knight.svg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+.bispo-preto-1,.bispo-preto-2{
+    background-image: url(/assets/black_bishop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
