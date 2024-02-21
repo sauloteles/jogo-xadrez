@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +20,9 @@ body{
     /* display: flex;
     align-items: center;
     justify-content: center; */
+}
+.tabuleiro-casa:hover{
+    border: 3px solid black  ;
 }
 .tabuleiro-casa img{
     width: 100%;
@@ -39,7 +42,7 @@ body{
 .peao-preto-6,
 .peao-preto-7,
 .peao-preto-8{
-    background-image: url(./assets/black_pawn.svg);
+    background-image: url(/assets/black_pawn.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 }
@@ -51,20 +54,20 @@ body{
 .peao-branco-6,
 .peao-branco-7,
 .peao-branco-8{
-    background-image: url(./assets/white_pawn.svg);
+    background-image: url(/assets/white_pawn.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 }
 
 .torre-preta-1,
 .torre-preta-2{
-    background-image: url(./assets/black_rook.svg);
+    background-image: url(/assets/black_rook.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 
 }
 .torre-branca-1,.torre-branca-2{
-    background-image: url(./assets/white_rook.svg);
+    background-image: url(/assets/white_rook.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 
@@ -72,43 +75,43 @@ body{
 
 
 .cavalo-preto-1,.cavalo-preto-2{
-    background-image: url(./assets/black_knight.svg);
+    background-image: url(/assets/black_knight.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 }
 
 .cavalo-branco-1,.cavalo-branco-2{
-    background-image: url(./assets/white_knight.svg);
+    background-image: url(/assets/white_knight.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 }
 .bispo-preto-1,.bispo-preto-2{
-    background-image: url(./assets/black_bishop.svg);
+    background-image: url(/assets/black_bishop.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 }
 .bispo-branco-1,.bispo-branco-2{
-    background-image: url(./assets/white_bishop.svg);
+    background-image: url(/assets/white_bishop.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 }
 .rei-preto{
-    background-image: url(./assets/black_king.svg);
+    background-image: url(/assets/black_king.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 }
 .rei-branco{
-    background-image: url(./assets/white_king.svg);
+    background-image: url(/assets/white_king.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 }
 .rainha-preta{
-    background-image: url(./assets/black_queen.svg);
+    background-image: url(/assets/black_queen.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 }
 .rainha-branca{
-    background-image: url(./assets/white_queen.svg);
+    background-image: url(/assets/white_queen.svg);
     background-repeat: no-repeat;
     background-size: 100% ;
 }
